@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+	<global>
+		<blocks>
+		
+			<!-- Calling the class we are going to use to overwrite -->
+			<rewriteblock>
+				<class>Inkatia_Rewriteblock_Block</class>
+			</rewriteblock>
+			
+			<!-- Overwriting the "Mage_Customer_Block_Account_Dashboard_Hello" in Mage_Customer -->
+		    <customer>
+		    	<rewrite>
+					<account_dashboard_hello>Inkatia_Rewriteblock_Block_Example</account_dashboard_hello>
+				</rewrite>
+			</customer>
+			
+		</blocks>
+		<helpers>
+			<rewriteblock>
+				<class>Inkatia_Rewriteblock_Helper</class>
+			</rewriteblock>
+		</helpers>
+	</global>
+</config>

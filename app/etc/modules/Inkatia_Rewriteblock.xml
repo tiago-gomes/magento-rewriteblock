@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+   	<!--  Register the Module -->
+     <modules>
+        <Inkatia_Rewriteblock>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends><Mage_Customer/></depends>
+        </Inkatia_Rewriteblock>
+     </modules>
+</config>
